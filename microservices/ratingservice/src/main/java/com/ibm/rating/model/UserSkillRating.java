@@ -26,7 +26,7 @@ public class UserSkillRating {
 
     @ManyToOne
     @JoinColumn(name = "proficiency_id")
-    private ProficiencyMaster proficiencyMaster;
+    private ProficiencyMaster proficiency;
 
     @Column(name = "certified")
     private Boolean certified;
@@ -62,12 +62,12 @@ public class UserSkillRating {
         this.skill = skill;
     }
 
-    public ProficiencyMaster getProficiencyMaster() {
-        return proficiencyMaster;
+    public ProficiencyMaster getProficiency() {
+        return proficiency;
     }
 
-    public void setProficiencyMaster(ProficiencyMaster proficiencyMaster) {
-        this.proficiencyMaster = proficiencyMaster;
+    public void setProficiency(ProficiencyMaster proficiency) {
+        this.proficiency = proficiency;
     }
 
     public Boolean getCertified() {
