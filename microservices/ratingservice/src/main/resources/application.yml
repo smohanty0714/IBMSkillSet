@@ -16,3 +16,12 @@ eureka:
 spring:
   application:
     name: rating-service
+  datasource:
+    url: jdbc:mysql://ibmhackajobdb.cygwibizailj.ap-southeast-1.rds.amazonaws.com:3306/hackajobsquad1?useSSL=false
+    username: ibmhackajob
+    password: Welcome123
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
