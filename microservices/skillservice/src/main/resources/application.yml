@@ -1,0 +1,28 @@
+server:
+  port: 9092
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: skill-service
+  datasource:
+        url: jdbc:mysql://ibmhackajobdb.cygwibizailj.ap-southeast-1.rds.amazonaws.com:3306/hackajobsquad1?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+        username: ibmhackajob
+        password: Welcome123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        ddl-auto: update
+    
