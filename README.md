@@ -14,6 +14,8 @@ This example demonstrates the main features of the Zuul API gateway integrated i
 
 Please review the attached project which contains two micro service (skillservice and ratingservice) , Service Discovery (eureka-server),  Api Gateway (zuul-server).
 
+Architecture : <b>https://photos.google.com/photo/AF1QipOyA57pRQqwttJqoA9EGO-9lP0HsV8tS7PuHlM3</b>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Running Attached Project :
 
