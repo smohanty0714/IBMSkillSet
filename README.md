@@ -26,9 +26,9 @@ Running Attached Project :
 Access Eureka Service Discovery through the URL - <b>http://localhost:8761/</b> . There you can find Zull Api Gateway service and other two micro service has register them selfs.
 4. So end point to access two micro service will be the zuul end point i.e <b>http://localhost:9090 </b>. So zuul is going to route to the respective micro service based on the URL.
 
-So to access the skillservice API : <b> http://localhost:9090/api/skill-service/**actual skill service api endpoint</b>
+So to access the skillservice API : <b> http://<zuul_service_endpoint>/api/skill-service/**skill_service_api_endpoint</b>
 
-So to access the ratingservice API : <b>http://localhost:9090/api/rating-service/**actual rating service api endpoint</b>
+So to access the ratingservice API : <b>http://<zuul_service_endpoint>/api/rating-service/**rating_service_api_endpoint</b>
 
 <b>API List skill service (Running on port http://localhost:9092):</b>
 
