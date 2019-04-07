@@ -6,7 +6,7 @@ import com.ibm.skill.model.SkillCategory;
 
 /**
  * 
- * @author sumohanty
+ * @author Suvendu Mohanty
  *
  */
 public interface SkillCategoryRepo extends JpaRepository<SkillCategory, Long>{

@@ -2,7 +2,7 @@ package com.ibm.skill.service.exception;
 
 /**
  * 
- * @author sumohanty
+ * @author Suvendu Mohanty
  *
  */
 public class SkillServiceException {

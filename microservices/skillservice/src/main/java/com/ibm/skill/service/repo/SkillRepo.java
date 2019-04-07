@@ -10,7 +10,7 @@ import com.ibm.skill.model.Skill;
 
 /**
  * \
- * @author sumohanty
+ * @author Suvendu Mohanty
  *
  */
 public interface SkillRepo extends JpaRepository<Skill, Long>{

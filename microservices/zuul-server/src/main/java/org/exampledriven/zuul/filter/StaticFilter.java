@@ -13,7 +13,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
+/**
+ * 
+ * @author Suvendu Mohanty
+ *
+ */
 @Component
 public class StaticFilter extends StaticResponseFilter {
 

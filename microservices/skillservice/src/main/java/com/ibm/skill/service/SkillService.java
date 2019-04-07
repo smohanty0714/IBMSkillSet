@@ -9,7 +9,7 @@ import com.ibm.skill.model.Skill;
 import com.ibm.skill.model.SkillCategory;
 
 /**
- * @author sumohanty
+ * @author Suvendu Mohanty
  *
  */
 public interface SkillService {

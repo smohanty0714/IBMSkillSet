@@ -1,6 +1,5 @@
 package org.exampledriven.zuul.filter;
 
-import com.netflix.zuul.FilterProcessor;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import org.slf4j.Logger;
@@ -11,7 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by Peter_Szanto on 6/14/2016.
+ * 
+ * @author Suvendu Mohanty
+ *
  */
 @Component
 public class AccessLogFilter extends ZuulFilter {

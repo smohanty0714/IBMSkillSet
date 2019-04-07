@@ -14,7 +14,11 @@ import org.springframework.core.io.UrlResource;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
+/**
+ * 
+ * @author Suvendu Mohanty
+ *
+ */
 @EnableZuulProxy
 @SpringBootApplication
 @EnableDiscoveryClient

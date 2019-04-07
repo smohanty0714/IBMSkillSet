@@ -15,7 +15,7 @@ import com.ibm.skill.service.repo.SkillCategoryRepo;
 import com.ibm.skill.service.repo.SkillRepo;
 
 /**
- * @author sumohanty
+ * @author Suvendu Mohanty
  *
  */
 @Service
