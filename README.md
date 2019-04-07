@@ -1,16 +1,16 @@
 MicroService Design for IBM Hackathon SKill Management using Spring Boot, Zuul and Eureka 
 ------------------------------------------------------------------------------------------------------------
-This example demonstrates the main features of the Zuul API gateway integrated into spring cloud :
-•	Service auto registration via eureka
-•	Service registration by address
-•	Service registration by service ID
-•	Filters (logging, authentication)
-•	Serving static content
-•	Service response Aggregation through Zuul
-Technology Used
-•	Spring boot 1.5.3.RELEASE
-•	Eureka Service Discovery Client
-•	Zuul API Gateway
+This example demonstrates the main features of the Zuul API gateway integrated into spring cloud :<br>
+<li> Service auto registration via eureka</li>
+<li> Service registration by address</li>
+<li> Service registration by service ID</li>
+<li> Filters (logging, authentication)</li>
+<li> Serving static content</li>
+<li> Service response Aggregation through Zuul</li>
+<b> Technology Used</b>
+  <li>  Spring boot 1.5.3.RELEASE</li>
+  <li>  Eureka Service Discovery Client</li>
+  <li>  Zuul API Gateway</li>
 
 Please review the attached project which contains two micro service (skillservice and ratingservice) , Service Discovery (eureka-server),  Api Gateway (zuul-server).
 
@@ -30,9 +30,9 @@ So to access the ratingservice API : <b>http://localhost:9090/api/rating-service
 
 <b>API List skill service (Running on port http://localhost:9092):</b>
 
-    <b>Access Skill Categories :</b> http://localhost:9090/api/skill-service/skill/skillcategory
+    Access Skill Categories : http://localhost:9090/api/skill-service/skill/skillcategory
 
-    <b>Access Skills based Category ID :</b> http://localhost:9090/api/skill-service/skill/2
+    Access Skills based Category ID : http://localhost:9090/api/skill-service/skill/2
 
 
 
