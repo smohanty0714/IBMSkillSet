@@ -32,9 +32,17 @@ So to access the ratingservice API : <b>http://localhost:9090/api/rating-service
 
 <b>API List skill service (Running on port http://localhost:9092):</b>
 
-    Access Skill Categories : http://localhost:9090/api/skill-service/skill/skillcategory
+    Access Skill Categories : GET : http://localhost:9090/api/skill-service/skill/skillcategory
 
-    Access Skills based Category ID : http://localhost:9090/api/skill-service/skill/2
+    Access Skills based Category ID : GET : http://localhost:9090/api/skill-service/skill/2
+    
+<b>API List rating service (Running on port http://localhost:9091):</b>
+
+    Access user skill rating summary : GET : http://localhost:9090/api/rating-service/rating
+
+    Create skill rating for user : POST : http://localhost:9090/api/rating-service/rating
+    
+    Update skill rating for user : PUT : http://localhost:9090/api/rating-service/rating
 
 
 
